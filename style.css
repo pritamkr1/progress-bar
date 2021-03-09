@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+.progress-bar{
+    width: 500px;
+    border: 1px solid rgba(6, 6, 110, 0);
+    margin: 20px 0;
+    background-color: rgba(6, 6, 110, 0.274);
+}
+.progress{
+    width: 6%;
+    background-color: rgb(6, 6, 110);
+    padding: 13px 5px;
+    color: #fff;
+}
+.click{
+    text-align: center;
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: rgba(0, 174, 255, 0.637);
+    color: #fff;
+    outline: 0;
+    border: 0.5px solid rgba(0, 174, 255, 0.637);
+    transition: 0.3s ease-in-out;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer i{
+    cursor: pointer;
+    font-size: 2rem;
+}
